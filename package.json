@@ -1,0 +1,38 @@
+{
+  "name": "api-ts",
+  "version": "1.0.0",
+  "description": "Api rest utilizando typescript",
+  "main": "app.js",
+  "scripts": {        
+    "compile": "tsc",
+    "compile2": "tsc -w",
+    "dev": "nodemon ./app/dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erickfabricio/api-ts.git"
+  },
+  "keywords": [
+    "api",
+    "rest"
+  ],
+  "author": "Erick Fabricio Martínez Casttelanos - https://erickfabricio.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erickfabricio/api-ts/issues"
+  },
+  "homepage": "https://github.com/erickfabricio/api-ts#readme",
+  "dependencies": {
+    "@types/express": "^4.17.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.8",
+    "morgan": "^1.9.1",
+    "typescript": "^3.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
